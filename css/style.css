@@ -29,4 +29,32 @@ body {
   justify-content: center;
   color: white;
   text-align: center;
+  font-size: 50px;
+  transition: 0.7s;
+}
+
+@media (max-width: 1000px) {
+  .landing {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing {
+    background-image: url('../images/cup2.jpeg');
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+  }
 }
